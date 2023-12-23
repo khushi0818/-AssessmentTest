@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+</head>
+
+<body>
+    <h1>Form</h1>
+    <form action="#" onsubmit="return validation()">
+        <div class="form-group">
+            <label>Name</label>
+            <input type="text" name="name" class="form-controle" id="name">
+            <span id="Name" class="red"></span>
+        </div>
+        <div class="form-group">
+            <label>Email</label>
+            <input type="email" name="Email" class="form-controle" id="Email">
+            <span id="email" class="blue"></span>
+        </div>
+        <div class="form-group">
+            <label>Mobile Number</label>
+            <input type="number" name="mobile" class="form-controle" id="Mobile">
+            <span id="Mobile" class="orange"></span>
+        </div>
+        <div class="form-group">
+            <label>City</label>
+            <input type="text" name="city" class="form-controle" id="City">
+            <span id="city" class="gray"></span>
+        </div>
+        <input type="submit" name="submit" value="submit" class="button">
+
+    </form>
+</body>
+<script src="script.js"></script>
+
+</html>
