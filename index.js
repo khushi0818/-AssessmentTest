@@ -1,13 +1,36 @@
-//  for  creating files in directory.
-const fs = require('fs')
-// file1
-fs.writeFileSync("file1.txt","Node.js is an open source server environment")
-// file2
-fs.writeFileSync("file2.txt","Node.js runs on various platforms Windows, Linux, Unix, Mac OS X, etc.")
-// file3
-fs.writeFileSync("file3.txt","Node.js uses JavaScript on the server")
+// Data Preparation:
 
-// for deleting the all three file we use
-// fs.unlinkSync("file1.txt")
-// fs.unlinkSync("file2.txt")
-// fs.unlinkSync("file3.txt")
+// Make the dictionary 
+ const mydictionary = [
+    {
+        name:"khushi",age:20,City:"Indore"
+    },
+    {
+        name:"Rohit",age:30,City:"Mumbai"
+    },
+    {
+        name:"Virat",age:29,City:"Delhi"
+    }
+ ]
+
+//  Filtring the dictionary
+// who's age is under 25
+// console.log(
+//     mydictionary.filter(mydictionary=> mydictionary.age<25)
+// )
+
+// Sorting the dictionary
+// console.log(
+//     mydictionary.sort(function (a, b) {
+//         if (a.City < b.City) {
+//           return -1;
+//         }
+//         if (a.City > b.City) {
+//           return 1;
+//         }
+//         return 0;
+//       })
+// )
+
+// final list 
+console.log(mydictionary)
